@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+}
+
+.CartPage-item {
+    margin: 0px;
+    padding: 0px;
+}
+
+.CartPage-count{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+
+}
+.CartItem-addOne, .CartItem-removeOne{
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+
+}
+
+.CartItem-removeOne{
+    border-right: 1px solid ;
+}

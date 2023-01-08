@@ -1,0 +1,44 @@
+.App{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App-nav{
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 2px solid orangered;
+}
+
+.App-nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+.App-nav button{
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.App-nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 32px;
+  font-size: 24px;
+  border-bottom: 4px solid transparent;
+}
+
+.App-content{
+  margin: 0 20px;
+}
+.App-nav-item button:hover {
+  counter-reset: #999;
+  border-bottom: 2px solid orangered;
+}
+ul li button:hover{
+  border-bottom: 2px solid orangered;
+}
+.App-nav-item.selected{
+  border-bottom-color: #ffaa3f;
+}
